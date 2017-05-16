@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Michael Soileau Portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
@@ -19,17 +20,20 @@
 </header>
 <main>
     <h3 class="header-light letter-spacing-1">Featured Work</h3>
+    <p class="featured">
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/bfcf8d4907129.560ad2fc3b4cc.jpg" alt="destroyer">
+    </p>
     <div class="pictures flex text-align-center">
-        <div class="flex row-wrap justify-center" id="insertPictures"></div>
+        <div class="flex row-wrap justify-center mw-100" id="insertPictures"></div>
     </div>
 </main>
 <template id="addPictures">
-    <article class="mh-200 margin-5-all w-third br-10percent-all dark-border">
+    <article class="mh-200 minw-200 margin-5-all w-third br-10percent-all dark-border">
         <a href="" class="dark-blue-text">
             <figure>
                 <img src="" alt="">
-                <br><figcaption class="caps f-size-24"></figcaption>
-                <cite class="f-style-normal f-size-12"></cite>
+                <br><figcaption class="caps f-size-24 ellipsis"></figcaption>
+                <cite class="f-style-normal f-size-12 disp-block ellipsis"></cite>
 
             </figure>
         </a>
