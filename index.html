@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Michael Soileau Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body class="pt-sans dark-blue-text">
+<header class="flex column-wrap-down align-right dark-border-btm pb-4 letter-spacing-1">
+    <img src="./img/udacity.svg" alt=""
+         class="align-left mw-50 mh-50 logo">
+    <h2 class=" margin-reset-0 f-size-36">
+        <span class="fw-light caps">Michael Soileau</span>
+    </h2>
+    <h4 class=" margin-reset-0">
+        <span class="fw-light caps">Front-End Ninja</span>
+    </h4>
+</header>
+<main>
+    <h3 class="header-light letter-spacing-1">Featured Work</h3>
+    <div class="pictures flex text-align-center">
+        <div class="flex row-wrap justify-center" id="insertPictures"></div>
+    </div>
+</main>
+<template id="addPictures">
+    <article class="mh-200 margin-5-all w-third br-10percent-all dark-border">
+        <a href="" class="dark-blue-text">
+            <figure>
+                <img src="" alt="">
+                <br><figcaption class="caps f-size-24"></figcaption>
+                <cite class="f-style-normal f-size-12"></cite>
+
+            </figure>
+        </a>
+    </article>
+</template>
+<script src="./js/main.js"></script>
+<script src="https://www.behance.net/v2/users/webart_design/projects?client_id=RzbsOhJ3Ru2axJyqvtiLmqIVO2PmSyIw&sort=appreciations&callback=loadBehanceJSON"></script>
+<script src="https://api.github.com/users/NoMan2000/repos?callback=loadGithubJSON"></script>
+</body>
+</html>
